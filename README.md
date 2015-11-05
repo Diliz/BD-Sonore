@@ -1,25 +1,21 @@
-Ionic App Base
-=====================
+Ionic app
 
-A starting project for Ionic that optionally supports using custom SCSS.
+Pour lancer l'application en mode serveur, il faudra les prérequis suivant sur ton pc:
 
-## Using this project
+Git:
 
-We recommend using the [Ionic CLI](https://github.com/driftyco/ionic-cli) to create new Ionic projects that are based on this project but use a ready-made starter template.
+windows: https://git-scm.com/download/win
+mac: https://git-scm.com/download/mac (généralement j'utilise la version dispo dans xcode)
 
-For example, to start a new Ionic project with the default tabs interface, make sure the `ionic` utility is installed:
 
-```bash
-$ npm install -g ionic
-```
+Node:
 
-Then run:
+https://nodejs.org/en/
 
-```bash
-$ ionic start myProject tabs
-```
+Ionic: (dans un terminal une fois le reste installé, utiliser git bash sur windows)
 
-More info on this can be found on the Ionic [Getting Started](http://ionicframework.com/getting-started) page and the [Ionic CLI](https://github.com/driftyco/ionic-cli) repo.
+si windows:
+sudo npm i -g cordova ionic
 
-## Issues
-Issues have been disabled on this repo, if you do find an issue or have a question consider posting it on the [Ionic Forum](http://forum.ionicframework.com/).  Or else if there is truly an error, follow our guidelines for [submitting an issue](http://ionicframework.com/submit-issue/) to the main Ionic repository.
+si mac, mettre sudo:
+sudo npm i -g cordova ionic
