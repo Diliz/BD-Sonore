@@ -1,0 +1,22 @@
+/* Empty. Add your own CSS if you like */
+body {
+  width: 100%;
+  cursor: url('http://ionicframework.com/img/finger.png'), auto;
+}
+
+#bd {
+  width: 80%;
+  margin: auto;
+}
+
+#bd .item {
+  width: 100%;
+  margin-top: 20%;
+}
+
+h1 {
+  margin: auto;
+  width: 80%;
+  text-align: center;
+  padding: 5%;
+}
